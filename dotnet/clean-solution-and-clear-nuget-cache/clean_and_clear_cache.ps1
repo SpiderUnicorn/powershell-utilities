@@ -1,6 +1,6 @@
 ﻿<#
 .SYNOPSIS
-Removes all bin and object folders and clears nuget cache
+Removes all bin and object folders and clears nuget cache.
 
 .PARAMETER solutionDir
 The solution to clean. If no directory is provided, The
@@ -11,6 +11,7 @@ Path to the nuget executable. If no path is provided,
 nuget.exe will be downloaded to perform the cache clear,
 and then removed.
 #>
+
 
 Param(
   [string]$solutionDir = $PSScriptRoot,
