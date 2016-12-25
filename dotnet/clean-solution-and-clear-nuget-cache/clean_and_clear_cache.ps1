@@ -53,7 +53,7 @@ function RemoveFragmentAndLockFiles {
 }
 
 function ClearNugetCache {
-    # download nuget
+    # download nuget if not given as an argument
     $output = $nugetExe
     if (!$output) {
         Write-Host "Downloading nuget.exe"
